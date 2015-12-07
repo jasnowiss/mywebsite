@@ -45,3 +45,10 @@ group :development do
   gem 'spring'
 end
 
+# Static asset serving
+gem 'rails_12factor', group: :production
+# Specific ruby version
+ruby "2.2.3"
+# Puma webserver
+gem 'puma'
+
