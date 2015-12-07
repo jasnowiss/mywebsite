@@ -47,3 +47,5 @@ end
 
 # Static asset serving and logging on Heroku
 gem 'rails_12factor', group: :production
+# Specific Ruby version
+ruby "2.2.3"
