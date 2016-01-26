@@ -1,0 +1,56 @@
+<% provide(:title, "Resume") %>
+
+<div class="page-resume">
+  <div class="container">
+    <h2>Resume</h2>
+    <p><%= link_to image_tag("other/pdfversion2.png", size: "140x40"), asset_path("resume.pdf"), target: '_blank' %></p>
+    <div class="resume-container">
+      <h3 style="text-align: center">Jeffrey Snowiss</h3>
+      <hr>
+      <h4 style="text-align: center; padding-bottom: 15px"><a href="mailto:jasnowiss@gmail.com" target="_top">jasnowiss@gmail.com</a> | +1 (310) 683-8551 | <%= link_to "jeffsnowiss.com", root_path %> | <a href="https://github.com/jasnowiss" target="_blank">github.com/jasnowiss</a></h4>
+      <h4><b>OBJECTIVE</b></h4>
+      <hr>
+      <p>Full-time software engineering position</p>
+      <h4><b>EDUCATION</b></h4>
+      <hr>
+      <p><b>Bachelor of Engineering in Electrical Engineering and Computer Science</b></p>
+      <p>University of California, Berkeley</p>
+      <p>Overall GPA: 3.251. Graduated: May 2015</p>
+      <h4>PROGRAMMING EXPERIENCE</h4>
+      <hr>
+      <p><b>Technical Skills</b></p>
+      <ul>
+        <li>Proficiency in: Python, Swift, Java, Mac OS X</li>
+        <li>Experience in: C++, HTML5, CSS3, JavaScript, Unix, Git/Github, MATLAB, LaTeX, Adobe Illustrator CS5</li>
+      </ul>
+      <p><b>Personal Projects</b></p>
+      <ul>
+        <li><b><a href="https://itunes.apple.com/us/app/bookin-it/id1057026778?mt=8" target="_blank">Bookin’ It</a></b>: Created and launched a mobile game on the App Store using the Swift programming language. The process has been a very interesting and stimulating experience. I have worked on nearly every aspect of the game, and had some help with artwork, music, and sound effects. 5000+ lines of code, 100+ different images, and 15+ songs and sound effects.</li>
+        <li><b><a href="http://www.naebor.net" target="_blank">Naebor, Inc</a></b>: Founded this company in October 2015 and sold my game Bookin’ It under its name. I am excited to create more software for this company and bring out its potential. Utilized HTML, Bootstrap, and JavaScript to create the website.</li>
+        <li><b><%= link_to "Go Man Go!", fun_go_man_go_path %></b>: Fun little project that got me into making other games. Took an EaselJS example and edited it into a fast-paced, counting mini-game. Utilized HTML and JavaScript.</li>
+      </ul>
+      <p><b>School Projects</b></p>
+      <ul>
+        <li><b>Python Compiler</b>: Implemented the lexer and parser, and generated the abstract syntax tree, decorated abstract syntax tree, and code generator. Python code was compiled into C++ code using C++. Worked in a group of three.</li>
+        <li><b><a href="http://cs169tracks.herokuapp.com" target="_blank">Tracks</a></b>: Created a music collaboration website where you can upload, record, and edit songs, as well as combine multiple songs with multiple users to create new collaborations. Worked in a group of six. Utilized Python, Django, HTML, CSS, and JavaScript.</li>
+        <li><b>SimpleDB</b>: Implemented the core modules for a basic database management system. Constructed records, files, buffers, operators, a query optimizer, and transactions. Worked in a group of two. Utilized Java.</li>
+      </ul> 
+      <h4>LEADERSHIP AND WORK EXPERIENCE</h4>
+      <p><b>BJC PD Teaching Assistant,</b> Berkeley, CA | <em>Jun 2014 - Aug 2014, Jun 2015 - Aug 2015</em></p>
+      <ul>
+        <li>Taught two summers as the Beauty and Joy of Computing (BJC) Professional Development (PD) Teaching Assistant. BJC is a variant of Berkeley’s CS10 (Computer Science 10) course designed to be taught by high school teachers all across the country. In 2017, the BJC content will be launched as the new AP Computer Principles course. I led discussions to over one-hundred high school teachers, better preparing them to teach the BJC material. My other duties included creating the discussion materials, answering course questions, and recording feedback to better improve the course.</li>
+      </ul>
+      <p><b>CS10 Teaching Assistant,</b> Berkeley, CA | <em>Jan 2014 - May 2015</em></p>
+      <ul>
+        <li>Taught two semesters of labs and discussions for about one-hundred total students for Computer Science 10. Also worked one semester purely on course development. Lab is geared towards teaching students the fundamentals of programming, and discussion is geared towards explaining algorithms and the big ideas of computer science, as well as preparing students for exams. Since CS10 is a constantly evolving course, Teaching Assistants largely contribute to its development.</li>
+      </ul>
+      <p><b>CS10 Head Reader,</b> Berkeley, CA | <em>Aug 2013 - Dec 2013</em></p>
+      <ul>
+        <li>Graded the quizzes, homeworks, and projects of about thirty students for Computer Science 10. I also had administrative responsibilities that included: organizing submissions and delegating them to the readers, making sure readers completed grading in a timely fashion, and returning feedback to the students. The readers have weekly meetings to discuss grading rubrics and give ideas on improving the course as a whole.</li>
+      </ul>
+      <h4>ACTIVITIES AND AWARDS</h4>
+      <p><b>Trumpet,</b> University of California Marching Band | <em>Aug 2011 - Dec 2014</em></p>
+      <p><b>Eagle Scout,</b> Boy Scouts of America | <em>Jun 2010<em></p>
+    </div>
+  </div>
+</div>

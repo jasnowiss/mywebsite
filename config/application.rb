@@ -22,5 +22,15 @@ module Mywebsite
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+    # Add a trailing slash to routes.
+    # config.action_controller.default_url_options = { :trailing_slash => true }
+    # Using Bootstrap Font Awesome
+    # config.assets.paths << Rails.root.join("app", "assets", "fonts")
+    # Using EaselJS
+    # config.assets.paths << Rails.root.join("app", "assets", "easeljs", "_assets")
+    # config.assets.paths << Rails.root.join("vendor", "assets", "easeljs", "_assets", "css")
+    # config.assets.paths << Rails.root.join("vendor", "assets", "easeljs", "_assets", "js")
+    # config.assets.paths << Rails.root.join("vendor", "assets", "easeljs", "_assets", "libs")
+    # config.assets.paths << Rails.root.join("vendor", "assets", "easeljs", "lib")
   end
 end

@@ -1,0 +1,45 @@
+<% provide(:title, "Go Man Go") %>
+
+<!-- <link href="assets/easeljs/_assets/css/shared.css" rel="stylesheet" type="text/css"/>
+<link href="assets/easeljs/_assets/css/examples.css" rel="stylesheet" type="text/css"/>
+<script src="assets/easeljs/_assets/js/examples.js"></script>
+
+<script src="assets/easeljs/_assets/libs/preloadjs-NEXT.min.js"></script>
+
+<script src="assets/easeljs/lib/easeljs-NEXT.combined.js"></script> -->
+
+<%= stylesheet_link_tag 'easelcss/examples' %>
+
+<%= javascript_include_tag 'https://code.createjs.com/createjs-2015.11.26.min.js' %>
+<%= javascript_include_tag 'easeljs/examples' %>
+<%= javascript_include_tag 'easeljs/go-man-go' %>
+
+<div class="page-go-man-go">
+  <div id="gomango" class="container">
+    <div>
+      <h2>Go Man Go! Click to Count!</h2>
+      <!-- <p>
+        An example of defining a <code>SpriteSheet</code>, then displaying it
+        using <code>Sprite</code>. This demo also shows playing named
+        animations (jump and run), setting animation speed, chaining animations,
+        and using <code>Sprite.gotoAndPlay()</code>.
+        Click the stage to initialize a jump, which will continue back into the
+        run when it is complete.
+      </p>
+      <p>
+        <strong>Note:</strong> Some browsers can not load images or access pixel
+        data when running local files, and may throw a security error or not
+        work unless the content is running on a server.
+      </p> -->
+      <div id="score" style="font-size: 16px">Score: 0</div>
+      <div><p id="highscore">High Score: 0</p></div>
+      <div>
+        <canvas id="testCanvas" width="0" height="0"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    begin();
+</script>
