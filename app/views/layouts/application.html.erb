@@ -38,6 +38,10 @@
 
   <%= csrf_meta_tags %>
 
+  <!-- jQuery plugins, because the Rails default ones screwed me -->
+  <%= javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js' %>
+  <%= javascript_include_tag 'http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.core.js' %>
+
 </head>
 
 <body id="page-top" class="index">

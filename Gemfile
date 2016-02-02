@@ -52,3 +52,9 @@ ruby "2.2.3"
 # Puma webserver
 gem 'puma'
 
+# jQuery additions for animate
+# gem 'jquery-rails'
+# gem 'jquery-ui-rails'
+# gem 'rails-asset-jqueryui'
+# gem 'animate-rails'
+

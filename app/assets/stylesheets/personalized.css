@@ -285,10 +285,11 @@ h1,h2,h3,h4,h5,h6
 
 .page-about /* about page properties */
 {
-	padding-bottom: 72.5px;
+	/*padding-bottom: 72.5px;*/
 	padding-top: 100px;
+	padding-bottom: 50px;
 	background-attachment: scroll;
-	/*background-image: url(../assets/mypics/golf-course.jpg);*/
+	/*background-image: url(../assets/other/aboutback.png);*/
 	background-position: center center;
 	background-repeat: none;
 	background-size: cover;
@@ -296,12 +297,11 @@ h1,h2,h3,h4,h5,h6
 	o-background-size: cover;
 	/*text-align: center;*/
 	webkit-background-size: cover;
-	
 }
 
 .page-proj /* project page properties */
 {
-	padding-bottom: 12.5px;
+	padding-bottom: 50px;
 	padding-top: 100px;
 	background-attachment: scroll;
 	/*background-image: url(../assets/mypics/ocean.jpg);*/
@@ -333,12 +333,19 @@ h1,h2,h3,h4,h5,h6
 
 .page-fun /* fun page properties */
 {
-	padding: 100px 0;
+	padding-top: 100px;
+	padding-bottom: 50px;
 }
 
 .page-resume /* resume page properties */
 {
-	padding: 100px 0;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: #66b2ff; /* For browsers that do not support gradients */  
+	background: -webkit-linear-gradient(left top, #66ffff, #0000cc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #66ffff, #0000cc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #66ffff, #0000cc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #66ffff, #0000cc); /* Standard syntax (must be last) */  
 }
 
 .page-go-man-go /* go man go page properties */
@@ -368,6 +375,13 @@ h1,h2,h3,h4,h5,h6
     margin-bottom: 15px;
 }
 
+.text-container-three /* For text boxing */
+{
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 25px;
+	padding: 7px;
+}
+
 .text-container-overlay /* For text overlay on images */
 {
 	background-color: rgba(255,255,255,0.7);
@@ -393,7 +407,7 @@ h1,h2,h3,h4,h5,h6
 .text-container-overlay-four /* For text overlay on images */
 {
 	background-color: rgba(255,255,255,0.7);
-	margin-top: 175px;
+	margin-top: 165px;
 	/*padding-top: 10px;*/
 	padding-bottom: 20px;
 }
@@ -407,6 +421,13 @@ h1,h2,h3,h4,h5,h6
 	padding-top: 10px;
 }
 
+.text-container-overlay-six /* For text overlay on images */
+{
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 25px;
+	padding-bottom: 10px;
+}
+
 .resume-container /* For presenting resume */
 {
 	border-style: solid;
@@ -416,6 +437,7 @@ h1,h2,h3,h4,h5,h6
 	padding-right: 5%;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	background-color: #fff;
 }
 
 .resume-container h4 /* For vertical spacing */
@@ -465,6 +487,15 @@ hr
 .fun-image:hover,.fun-image:focus,.fun-image:active,.fun-image.active
 {
 	border-color: #3399ff;
+}
+
+.pretty-colors
+{
+	border-style: transparent;
+	border-radius: 25px;
+	padding: 20px;
+	padding-top: 5px;
+	background-color: #00bbbb;
 }
 
 header
