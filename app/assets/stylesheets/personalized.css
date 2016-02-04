@@ -1,7 +1,8 @@
 body
 {
-	font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	overflow-x: hidden;
+	font-weight: 500;
 }
 .text-muted
 {
@@ -13,12 +14,12 @@ body
 }
 p
 {
-	font-size: 16px;
+	font-size: 17.699px;
 	line-height: 1.75;
 }
 p.large
 {
-	font-size: 16px;
+	font-size: 17.699px;
 }
 a,a:hover,a:focus,a:active,a.active
 {
@@ -113,16 +114,16 @@ h1,h2,h3,h4,h5,h6
 }
 .navbar-default /* default navbar properties */
 {
-	background-color: rgba(255,255,255,0.7);
+	background-color: rgba(230,230,230,0.7);
 	border-color: transparent;
 }
 .navbar-default .navbar-brand /* navbar title text */
 {
-	color: #333;
+	color: #333333;
 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 700;
 	letter-spacing: 1px;
-	font-size: 1.6em;
+	font-size: 1.65em;
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active /* navbar title text hover */
 {
@@ -196,7 +197,7 @@ h1,h2,h3,h4,h5,h6
 
 	.navbar-default
 	{
-		background-color: rgba(255,255,255,0.7);
+		background-color: rgba(230,230,230,0.7);
 		border: 0;
 		moz-transition: padding .3s;
 		padding: 10px 0;
@@ -205,8 +206,8 @@ h1,h2,h3,h4,h5,h6
 	}
 	.navbar-default .navbar-brand
 	{
-		color: #333;
-		font-size: 1.6em;
+		color: #333333;
+		font-size: 1.65em;
 		moz-transition: all .3s;
 		transition: all .3s;
 		webkit-transition: all .3s;
@@ -274,17 +275,21 @@ h1,h2,h3,h4,h5,h6
 .page-home /* homepage properties */
 {
 	padding-bottom: 0px;
-	padding-top: 170px;
+	padding-top: 135px;
 	background-attachment: scroll;
-	background-image: url(../assets/mypics/ocean.jpg);
-	background-position: center center;
+	/*background-image: url(../assets/mypics/ocean.jpg);*/
+	/*background-position: center center;
 	background-repeat: none;
 	background-size: cover;
 	moz-background-size: cover;
-	o-background-size: cover;
+	o-background-size: cover;*/
 	/*text-align: center;*/
-	webkit-background-size: cover;
-	
+	/*webkit-background-size: cover;*/
+	/*background: #66b2ff; 
+	background: -webkit-linear-gradient(left top, #66ffff, #0000cc);
+    background: -o-linear-gradient(bottom right, #66ffff, #0000cc);
+    background: -moz-linear-gradient(bottom right, #66ffff, #0000cc);
+    background: linear-gradient(to bottom right, #66ffff, #2222ff); */
 }
 
 .page-about /* about page properties */
@@ -410,8 +415,8 @@ h1,h2,h3,h4,h5,h6
 
 .text-container-overlay-four /* For text overlay on images */
 {
-	background-color: rgba(255,255,255,0.7);
-	margin-top: 165px;
+	background-color: rgba(230,230,230,0.7);
+	margin-top: 115px;
 	/*padding-top: 10px;*/
 	padding-bottom: 20px;
 }
@@ -441,6 +446,28 @@ h1,h2,h3,h4,h5,h6
 	display: inline-block;
 }
 
+.text-container-overlay-eight /* For text overlay on images */
+{
+	background-color: rgba(255,255,255,0.75);
+	border-radius: 25px;
+}
+
+.text-container-overlay-nine /* For text overlay on images */
+{
+	background-color: rgba(255,255,255,0.75);
+	border-radius: 25px;
+	display: inline-block;
+}
+
+
+.text-container-four 
+{
+	border-style: solid;
+	border-width: 4px;
+	border-color: #404040;
+	background-color: #fff;
+}
+
 .resume-container /* For presenting resume */
 {
 	border-style: solid;
@@ -466,7 +493,7 @@ h1,h2,h3,h4,h5,h6
 
 .resume-container li /* For font size */
 {
-	font-size: 16px;
+	font-size: 17.699px;
 }
 
 .nav-properties
@@ -509,6 +536,15 @@ hr
 	padding: 20px;
 	padding-top: 5px;
 	background-color: #00bbbb;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.image-container-one {
+	border-radius: 15px;
 }
 
 header
