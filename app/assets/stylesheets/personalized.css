@@ -416,7 +416,7 @@ h1,h2,h3,h4,h5,h6
 .text-container-overlay-four /* For text overlay on images */
 {
 	background-color: rgba(230,230,230,0.7);
-	margin-top: 118px;
+	margin-top: 94px;
 	/*padding-top: 10px;*/
 	padding-bottom: 20px;
 }
@@ -545,6 +545,19 @@ hr
 
 .image-container-one {
 	border-radius: 15px;
+}
+
+#borderimg1 { 
+    border-style: solid;
+    border-width:0 25px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-border-image: url(../assets/other/water-beads-two.jpg) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(../assets/other/water-beads-two.jpg) 30 round; /* Opera 11-12.1 */
+    border-image: url(../assets/other/water-beads-two.jpg) 95 round;
+   	/*border-image-repeat: repeat;*/
 }
 
 header
