@@ -1,28 +1,7 @@
-== README
+== My Website
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the repository of the personal website for Jeffrey Snowiss.
 
-Things you may want to cover:
+Made with the Rails framework and deployed to Heroku. A Bootstrap template was used as a base, and modified to produce the current layout.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Hosted at jeffsnowiss.com. Check it out to learn more about me and my experience.
