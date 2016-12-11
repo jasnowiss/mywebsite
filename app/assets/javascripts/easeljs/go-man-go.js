@@ -222,7 +222,7 @@ function tick(event) {
 				character.scaleY = scalingY;
 				stage.addChild(character);
 				counter = counter + 1;
-			} else if (counter >= 60) {
+			} else if (counter >= 120) {
 				mode = 1;
 				counter = 0;
 				stage.removeChild(character);
@@ -238,7 +238,7 @@ function tick(event) {
 				ready.scaleY = scalingY;
 				stage.addChild(ready);
 				counter = counter + 1;
-			} else if (counter >= 25) {
+			} else if (counter >= 50) {
 				mode = 2;
 				counter = 0;
 				stage.removeChild(ready);
@@ -254,7 +254,7 @@ function tick(event) {
 				set.scaleY = scalingY;
 				stage.addChild(set);
 				counter = counter + 1;
-			} else if (counter >= 25) {
+			} else if (counter >= 50) {
 				mode = 3;
 				counter = 0;
 				stage.removeChild(set);
@@ -270,7 +270,7 @@ function tick(event) {
 				go.scaleY = scalingY;
 				stage.addChild(go);
 				counter = counter + 1;
-			} else if (counter >= 15) {
+			} else if (counter >= 30) {
 				mode = 4;
 				counter = 0;
 				stage.removeChild(go);
@@ -485,7 +485,7 @@ function tick(event) {
 					score = score + 10;
 				} else {
 					almost = new createjs.Bitmap(loader.getResult("almost"));
-					almost.x = Math.floor(w/2 - 200 * scalingX);
+					almost.x = Math.floor(w/2 - 250 * scalingX);
 					almost.scaleX = scalingX;
 					almost.scaleY = scalingY;
 					stage.addChild(almost);
@@ -497,7 +497,7 @@ function tick(event) {
 					highscore = score;
 					document.getElementById('highscore').innerHTML = "High Score: " + highscore;
 				}
-			} else if (counter >= 60) {
+			} else if (counter >= 80) {
 				mode = 0;
 				counter = 0;
 				if (difference == 0) {
@@ -521,7 +521,7 @@ function tick(event) {
 				stage.addChild(incorrect);
 				counter = counter + 1;
 				document.getElementById('score').innerHTML = a + "/" + b;
-			} else if (counter >= 60) {
+			} else if (counter >= 80) {
 				mode = 0;
 				counter = 0;
 				stage.removeChild(incorrect);
